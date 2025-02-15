@@ -51,6 +51,6 @@ def formatear_documento(nombre_archivo: str, nombre_salida: str):
     nuevo_doc.save(nombre_salida)
 
 # Uso del script (reemplaza los nombres de archivo con los tuyos)
-nombre_archivo = "archivo_original
+nombre_archivo = "archivo_original"
 nombre_salida = "archivo_formateado"
 formatear_documento(nombre_archivo, nombre_salida)
